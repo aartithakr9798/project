@@ -1,0 +1,27 @@
+.gola{
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    border:1px solid red;
+    background: linear-gradient(rgba(231, 231, 7, 0.9),orange,rgb(210, 17, 49),purple,blue);
+padding:6px;
+}
+.gola img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    border-radius:50%;
+
+}
+.one{
+    height:10em;
+    width:10em;
+    background:rgb(217, 79, 102);
+    clip-path: circle(100px at 0 0);
+}
+ img{
+    height:30em;
+    width:30em;
+    -weblit-mask-image:url(./6-heart-splatter-1.png);
+    -webkit-mask-size:contain;
+ }
